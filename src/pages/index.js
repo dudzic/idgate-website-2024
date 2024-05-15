@@ -1,11 +1,14 @@
 import * as React from "react"
+import Navbar from "../components/Navbar";
+import Header from "../components/frontpage/Header";
 
 const IndexPage = () => {
-  return (
-    <div>
-      <h1 className={'text-7xl font-semibold'}>Hello World</h1>
-    </div>
-  )
+    return (
+        <>
+            <Navbar />
+            <Header title="Finest Web Experiences" />
+        </>
+    )
 }
 
 export default IndexPage
